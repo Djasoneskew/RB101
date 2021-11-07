@@ -23,7 +23,7 @@ loop do
 
   prompt("You chose #{choice}, the computer chose #{computer_choice}.")
 
-  if computer_choice == ('Rock' && choice == 'Scissors') ||
+  if (computer_choice == 'Rock' && choice == 'Scissors') ||
      (computer_choice == 'Scissors' && choice == 'Paper') ||
      (computer_choice == 'Paper' && choice == 'Rock')
     prompt('Sorry, you lost.')
